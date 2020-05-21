@@ -1,20 +1,20 @@
 {
-  "name": "vue-preset-template",
+  "name": "vue-preset",
   "version": "0.1.0",
-  "description": "Dead simple Vue preset template for learning use.",
+  "description": "Vue preset",
   "main": "prompts.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/savokiss/vue-preset-template.git"
+    "url": "git+https://github.com/Manfray/vue-preset.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/savokiss/vue-preset-template/issues"
+    "url": "https://github.com/Manfray/vue-preset/issues"
   },
-  "homepage": "https://github.com/savokiss/vue-preset-template#readme"
+  "homepage": "https://github.com/Manfray/vue-preset#readme"
 }

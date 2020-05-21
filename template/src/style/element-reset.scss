@@ -1,0 +1,70 @@
+// tab reset
+.capsule .el-tabs__header {
+  margin: 0;
+}
+.capsule .el-tabs__nav-scroll {
+  background-color: rgba(118,118,128,0.24);
+  border-radius: 6px;
+  padding: 0 2px 2px;
+}
+.capsule .el-tabs__item {
+  padding: 0;
+  color: #999;
+  z-index: 2;
+  height: 28px;
+  line-height: 30px;
+}
+.capsule .el-tabs__item.is-active {
+  color: #fff;
+}
+.capsule .el-tabs__item:hover {
+  color: #fff;
+  cursor: pointer;
+}
+.capsule .el-tabs__active-bar {
+  height: 26px;
+  background-color: #636366;
+  border-radius: 6px;
+}
+.capsule .el-tabs__nav-wrap::after {
+  display: none;
+}
+
+.hotarea-tab .el-tabs__item {
+  height: 90px;
+  padding: 0 6px;
+  line-height: 16px;
+}
+
+.hotarea-tab .el-tabs__header {
+  margin: 0;
+}
+.hotarea-tab .el-tabs__active-bar {
+  display: none;
+}
+.hotarea-tab .el-tabs__nav-wrap::after {
+  display: none;
+}
+.hotarea-tab .el-tabs__nav-next,.hotarea-tab  .el-tabs__nav-prev {
+  line-height: 80px;
+}
+
+// 按钮
+.hw-service.el-button--info.is-plain {
+  background-color: #313136;
+  border-color: #636366;
+  &:hover {
+    background-color: #636366;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  #app .capsule .el-tabs__item {
+    height: 24px;
+    line-height: 26px;
+    font-size: 13px;
+  }
+  #app .capsule .el-tabs__active-bar {
+    height: 22px;
+  }
+}
