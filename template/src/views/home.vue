@@ -1,10 +1,10 @@
 <template>
   <div class="home">
     <div class="title">
-      <div class="title__text animate__animated animate__bounce">智慧高速服务区大数据平台</div>
+      <div class="title__text animate__animated animate__bounce">大屏框架服务平台</div>
       <div class="title__time">{{ timeNow }}</div>
       <div class="btn-wrap">
-        <el-button size="mini" type="info" plain class="hw-service">前往门店</el-button>
+        <!-- <el-button size="mini" type="info" plain class="hw-service">前往门店</el-button> -->
         <el-button size="mini" type="info" plain class="hw-service">退出</el-button>
         <svg-icon :icon-class="fullScreen ? 'minimize' : 'maximize'" class-name="maximize-svg animate__animated animate__pulse" style="animation-iteration-count: infinite;" @click="toggleScreenSize"></svg-icon>
       </div>

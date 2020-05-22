@@ -1,7 +1,7 @@
 <template>
   <div class='detail'>
     <div class="opacity-btn" @click="$router.push('/home')"></div>
-    <img class="detail-img" src="../assets/detail.png" alt="">
+    <!-- <img class="detail-img" src="../assets/detail.png" alt=""> -->
   </div>
 </template>
 <script>
